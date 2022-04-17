@@ -1,6 +1,8 @@
 .contact-form {
   width: 100%;
   margin-top: 20px;
+  animation: fadeInUp 2s 2s;
+  animation-fill-mode: forwards;
 
   ul {
     padding: 0;
@@ -32,7 +34,8 @@
     }
   }
   input[type='text'],
-  input[type='email'] {
+  input[type='email']
+   {
     width: 100%;
     border: 0;
     background: #115173;
@@ -67,6 +70,7 @@
       border-radius: 4px;
       transition: 0.5s;
       cursor: pointer;
+      
   }
   .flat-button:hover {
       background: #ffd700;
